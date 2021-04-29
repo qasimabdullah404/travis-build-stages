@@ -5,6 +5,6 @@ jobs:
     - stage: Hello
       script: echo "Hello, World!"
     - stage: Hello-Again
-      script: echo "Hello there!"
+      script: false
     - stage: Hey-Now  
       script: echo "Hey hey..!"
