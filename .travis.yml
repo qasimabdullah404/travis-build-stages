@@ -2,7 +2,7 @@ language: generic
 
 jobs:
   include:
-    - if: branch = master
+    - if: branch = main
       script: echo "In Branch Master"
     - stage: Hello
       script: echo "Hello, World!"
