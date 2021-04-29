@@ -1,0 +1,9 @@
+language: generic
+
+jobs:
+  include:
+    - script: echo "Hello World!"
+    - script: echo "Hello, World!"
+    - stage: Stage
+      script: echo "In Stage Now"
+    - script: echo "In Stage Again?"
