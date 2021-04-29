@@ -2,8 +2,9 @@ language: generic
 
 jobs:
   include:
-    - script: echo "Hello World!"
-    - script: false
-    - stage: Stage
-      script: echo "In Stage Now"
-    - script: echo "In Stage Again?"
+    - stage: Hello
+      script: echo "Hello, World!"
+    - stage: Hello-Again
+      script: echo "Hello there!"
+    - stage: Hey-Now  
+      script: echo "Hey hey..!"
